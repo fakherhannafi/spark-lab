@@ -18,7 +18,7 @@ df = spark.read\
     .option("delimiter", ",")\
     .option("quote", '"')\
     .option("inferSchema", "true")\
-    .csv("s3://mylab-2022/listings.csv")\
+    .csv("s3://mylab-2022/listings.csv")
 
 
 df.show(5)
