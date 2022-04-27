@@ -15,6 +15,16 @@ Result: Ingest CSV File of 14 MB in 1 Minutes 16 Seconds
 
 ## Run Spark in Local Standalone Mode
 
+Requirements:
+``
+Java 8
+Spark-3.1.3-bin-hadoop3.2
+Python 3.9 (Anaconda if you are familiar with conda)
+pyspark from 
+py4j
+findspark (not required)
+``
+ 
 [Run Spark Scala/Python in Local](https://phoenixnap.com/kb/install-spark-on-windows-10)
 
 You can test the installation with my juypter notebook
