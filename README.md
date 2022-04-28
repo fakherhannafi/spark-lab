@@ -1,6 +1,6 @@
 # SPARK-LAB
 
-This project aims to ingest and clean airbnb public data via AWS Glue. 
+This project aims to ingest and clean airbnb public data via AWS Glue and Local PySpark 
 
 ## Glue Configurations
 You can access to aws console to create a new glue job or deploy via an IaC tool like Cloudformation or Terraform...
@@ -17,12 +17,12 @@ Result: Ingest CSV File of 14 MB in 1 Minutes 16 Seconds
 
 Requirements:
 ``
-Java 8
-Spark-3.1.3-bin-hadoop3.2
-Python 3.9 (Anaconda if you are familiar with conda)
-pyspark from 
-py4j
-findspark (not required)
+* Java 8
+* Spark-3.1.3-bin-hadoop3.2
+* Python 3.9 (Anaconda if you are familiar with conda)
+* pyspark from 
+* py4j
+* findspark (not required)
 ``
  
 [Run Spark Scala/Python in Local](https://phoenixnap.com/kb/install-spark-on-windows-10)
